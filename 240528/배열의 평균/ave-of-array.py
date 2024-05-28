@@ -14,4 +14,4 @@ for i in range(4):
     print(float(height[i] / 2), end = " ")
 print()
 
-print(float(total / (2 * 4)))
+print(round(float(total / (2 * 4)),1))
