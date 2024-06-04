@@ -1,7 +1,7 @@
 n, m = map(int, input().split())
 point = 1
 place = []
-array = [[0] * n for i in range(5)]
+array = [[0] * n for i in range(n)]
 
 for i in range(m):
     place.append(list(map(int, input().split())))
